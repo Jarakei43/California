@@ -1,0 +1,82 @@
+.registr__content {
+  border-radius: 16px;
+  max-width: 935px;
+  height: 450px;
+  background: #dce5e2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 61px 0px 0px 180px;
+}
+.registr__title {
+  padding: 47px 0px 0px 0px;
+  margin: 0;
+  font-family: Readex Pro;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 125%;
+  text-align: center;
+}
+.registr__description {
+  padding: 9px 0px 14px 0px;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+}
+.registr__form {
+  margin-top: 14px;
+  display: flex;
+}
+.registr__form-item {
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 54px 0 0 54px;
+  background: transparent;
+  padding: 16px 184px 17px 32px ;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  padding-left: 32px;
+}
+.registr__button {
+  border: none;
+  border-radius: 0 54px 54px 0;
+  padding: 16px 33px 17px 32px;
+  background: #000;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  color: #fff;
+}
+@media screen and (max-width:1024px) {
+  .registr__content {
+    margin-left: 45px;
+  }
+}
+@media screen and (max-width:968px) {
+  .registr__content {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width:568px) {
+  .registr__title {
+    padding-top: 0;
+    font-size: 32px;
+  }
+  .registr__description {
+    font-size: 10px;
+  }
+  .registr__form-item {
+    padding-right: 110px;
+  }
+}
+@media screen and (max-width:468px) {
+  .registr__form-item {
+    padding-right: 30px;
+  }
+}
